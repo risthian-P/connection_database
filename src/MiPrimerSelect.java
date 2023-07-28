@@ -1,4 +1,5 @@
 // me falta dominar los componentes visuales de java, botones, jtextfield, jlabel, etc.
+//la base de datos es musql worckbrench, y el driver es de ese
 import java.sql.*; //libreria externa, driver para conectar con mysql
 public class MiPrimerSelect {
     static final String DB_URL="jdbc:mysql://localhost/lista_estudiantes"; //Database - ubicacion/nombre del database
