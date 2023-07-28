@@ -1,6 +1,7 @@
+// me falta dominar los componentes visuales de java, botones, jtextfield, jlabel, etc.
 import java.sql.*; //libreria externa, driver para conectar con mysql
 public class MiPrimerSelect {
-    static final String DB_URL="jdbc:mysql://localhost/lista_estudiantes"; //Database
+    static final String DB_URL="jdbc:mysql://localhost/lista_estudiantes"; //Database - ubicacion/nombre del database
     static final String USER="root"; //usuario
     static final String password="root_bas3"; //contraseña para el ingreso
     static final String query = "Select * from Estudiantes"; //que accion desea realizar
